@@ -6,6 +6,8 @@ Uses a hybrid architecture: local GLM-OCR (Ollama) for primary recognition, with
 
 ## Architecture Flow
 
+![Architecture](architecture.png)
+
 ```
 PDF File
   ↓
