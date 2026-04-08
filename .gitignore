@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Output and temp directories
+output/
+tmp/
+temp/
+files/
+*.pdf
+!example*.pdf
+
+# Logs
+*.log
+logs/
+
+# Test files
+test_output/
+test_results/
+
+# Model files (if downloaded locally)
+models/
+*.gguf
+*.bin
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
