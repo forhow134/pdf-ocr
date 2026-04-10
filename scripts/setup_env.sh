@@ -58,7 +58,7 @@ fi
 echo ""
 echo "--- Verification ---"
 
-python3 -c "import pdf2image, PIL, openai, requests, pydantic; print('[OK] All Python packages imported successfully')"
+python3 -c "import pdf2image, PIL, openai, requests, pydantic, pdfplumber; print('[OK] All Python packages imported successfully')"
 
 if curl -s http://localhost:11434/api/tags &>/dev/null; then
     echo "[OK] Ollama service is running"
